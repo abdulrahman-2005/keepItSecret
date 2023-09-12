@@ -14,7 +14,7 @@ function viewSecret(secId) {
         if (secId === secret.id) {
             setTempLSData(secId)
         }
-        window.location.href = `./secret/view${secId}`
+        window.location.href = `./secret/view#${secId}`
     }
 }
 function crackSecret(secId) {
